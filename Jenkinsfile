@@ -24,9 +24,9 @@ userRemoteConfigs: [[url: 'git@github.com:wcvanvan/Teedy.git']])
           //Running Docker container
         stage('Run containers'){
           steps{
-            sh 'docker run -d -p 8084:8080 --name teedy_manual01 wcvanvan/teedy_local:v1.1'
-            sh 'docker run -d -p 8082:8080 --name teedy_manual02 wcvanvan/teedy_local:v1.1'
-            sh 'docker run -d -p 8083:8080 --name teedy_manual03 wcvanvan/teedy_local:v1.1'
+            sh 'docker run -d -p 8084:8080 --name teedy_manual04 wcvanvan/teedy_local:v1.1'
+            sh 'docker run -d -p 8082:8080 --name teedy_manual05 wcvanvan/teedy_local:v1.1'
+            sh 'docker run -d -p 8083:8080 --name teedy_manual06 wcvanvan/teedy_local:v1.1'
           }
         }
     }
